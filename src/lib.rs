@@ -100,7 +100,7 @@ pub fn download_prebuilt(
 
     check_supported_os_and_arch(
         NAME,
-        &env,
+        env,
         permutations! [
             HostOS::Linux => [HostArch::X64, HostArch::Arm64, HostArch::X86, HostArch::Arm],
             HostOS::MacOS => [HostArch::X64, HostArch::Arm64],
