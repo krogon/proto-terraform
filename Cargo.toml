@@ -1,6 +1,6 @@
 [package]
 name = "proto_terraform"
-version = "0.1.0"
+version = "0.2.0-alpha.20260908.2"
 edition = "2024"
 description = "Terraform WASM plugin for proto."
 authors = ["ageha734"]
